@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #202020;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #050303;
+		color: #f8f8f8;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 18pt;
 		font-weight: 300;
@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #f8f8f8;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #c30f0f !important;
+			color: #e709e4 !important;
 		}
 
 	strong, b {
@@ -1841,7 +1841,7 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #ffffff00;
+			border: solid 1px #f8f8f800;
 			border-radius: 4px;
 			width: 4.5em;
 			height: 4.5em;
@@ -2185,7 +2185,7 @@ input, select, textarea {
 	}
 
 		select option {
-			background: #ffffff;
+			background: #f8f8f8;
 		}
 
 		select:focus::-ms-value {
@@ -2225,7 +2225,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #585858;
+			color: #f8f8f8;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2252,7 +2252,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 4px;
-				border: solid 1px #c9c9c9;
+				border: solid 1px #f8f8f8;
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2267,9 +2267,9 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #585858;
-			border-color: #585858;
-			color: #ffffff;
+			background: #f8f8f8;
+			border-color: #f8f8f8;
+			color: #f8f8f8;
 			content: '\f00c';
 		}
 
@@ -2383,7 +2383,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #c9c9c9;
+			border: solid 1px #f8f8f8;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2455,8 +2455,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		box-shadow: inset 0 0 0 2px #f8f8f8;
+		color: #f8f8f8 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2528,8 +2528,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
-			color: #ffffff !important;
+			background-color: #f8f8f8;
+			color: #f8f8f8 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2674,7 +2674,7 @@ input, select, textarea {
 				padding: -1.5em;
 				border-radius: 3px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #f8f8f8;
 				text-align: center;
 				text-decoration: none;
 				z-index: 03;
@@ -2686,7 +2686,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: #f8f8f8 !important;
 				}
 
 				.tiles article > a h2 {
@@ -2710,27 +2710,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #ffffff00;
+				background-color: #f8f8f800;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2741,7 +2741,7 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
+					background-color: #f8f8f8;
 					opacity: 0;
 				}
 
@@ -2897,7 +2897,7 @@ input, select, textarea {
 						height: 2em;
 						line-height: 2em;
 						padding: 0 0em;
-						background-color: rgba(255, 253, 253, 0);
+						background-color: #202020; 
 						border-radius: 0px;
 						border: 0;
 						font-size: 0.8em;
@@ -2994,8 +2994,8 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
-		color: #ffffff;
+		background: #f8f8f8;
+		color: #f8f8f8;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3172,7 +3172,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #f8f8f8;
 	}
 
 		#footer > .inner {
@@ -3210,7 +3210,7 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: #f8f8f8;
 			}
 
 				#footer > .inner .copyright a {
